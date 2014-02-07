@@ -86,5 +86,7 @@ Package.on_use(function (api) {
     assetPath + 'views/statistic.css'
   ];
   api.add_files(assetFiles, 'client');
+  
+  api.add_files('lib/fix-asset-paths-for-meteor.css', 'client');
 
 });
